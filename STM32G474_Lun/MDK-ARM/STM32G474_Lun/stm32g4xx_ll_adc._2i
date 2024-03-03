@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include
+-IE:\DEMO_Pj\FOC\CJM\STM32G474_Lun\MDK-ARM\RTE
+-ID:\Keil\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+-ID:\Keil\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include
+-D__UVISION_VERSION="521" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx
+-o stm32g474_lun\stm32g4xx_ll_adc.o --omf_browse stm32g474_lun\stm32g4xx_ll_adc.crf --depend stm32g474_lun\stm32g4xx_ll_adc.d --feedback "STM32G474_Lun\STM32G474_Lun.fed" "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c"

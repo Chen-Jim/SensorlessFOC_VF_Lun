@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ..\MATLAB -I ..\Middlewares\ST\ARM\DSP\Inc
+-IE:\DEMO_Pj\FOC\CJM\STM32G474_Lun\MDK-ARM\RTE
+-ID:\Keil\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+-ID:\Keil\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include
+-D__UVISION_VERSION="521" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -D__TARGET_FPU_VFP -D__FPU_PRESENT -DARM_MATH_CM4 -DSIMULINK_USE_ARM_MATH
+-o stm32g474_lun\stm32g4xx_hal_uart_ex.o --omf_browse stm32g474_lun\stm32g4xx_hal_uart_ex.crf --depend stm32g474_lun\stm32g4xx_hal_uart_ex.d "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c"

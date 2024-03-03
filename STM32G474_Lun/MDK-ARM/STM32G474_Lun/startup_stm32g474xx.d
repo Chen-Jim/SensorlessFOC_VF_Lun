@@ -1,0 +1,1 @@
+stm32g474_lun\startup_stm32g474xx.o: startup_stm32g474xx.s

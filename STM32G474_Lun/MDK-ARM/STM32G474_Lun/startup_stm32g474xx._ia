@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp -g --apcs=interwork 
+-IE:\DEMO_Pj\FOC\CJM\STM32G474_Lun\MDK-ARM\RTE
+-ID:\Keil\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+-ID:\Keil\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include
+--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32G474xx SETA 1"
+--list startup_stm32g474xx.lst --xref -o stm32g474_lun\startup_stm32g474xx.o --depend stm32g474_lun\startup_stm32g474xx.d "startup_stm32g474xx.s"
